@@ -28,7 +28,7 @@ class BiblioClass:
                                book=[dict(title=book_it['Title'], author=book_it['Author'], height=book_it['Height'])])
                 else:
                     res = dict(name=item['name'], gender=item['gender'], address=item['address'],
-                           book=[dict(title=book_it['Title'], author=book_it['Author'], height=book_it['Height'])])
+                           book=[dict()])
                 list_user.append(res)
         r = list_user
         with open('data/result.json', "w") as file:
@@ -37,9 +37,6 @@ class BiblioClass:
         print("SUCCSESS")
 
 
-    # #     print(str(e))
-
-
 b = BiblioClass()
 b.c_res()
-# b.create_result()
+
