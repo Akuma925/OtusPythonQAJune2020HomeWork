@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fc10952-4e82-4f9d-b854-75994456018d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/AdminPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/AdminPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/Alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/Alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/CatalogPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/CatalogPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/ProductPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/ProductPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/UserLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/UserLoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/Alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/Alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/BasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/CatalogPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/CatalogPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/MainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/MainPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/ProductPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/ProductPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/UserLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/UserLoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/common/CommonTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/common/CommonTool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_opencart_admin_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_opencart_admin_login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_opencart_admin_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_opencart_admin_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_opencart_catalog_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_opencart_catalog_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_opencart_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_opencart_login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_opencart_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_opencart_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_opencart_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_opencart_product_page.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1khov2mp6NwReOchmdoWs9SKAev" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Рабочий стол/Otus-Python-QA-OOP-master" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fc10952-4e82-4f9d-b854-75994456018d" name="Default Changelist" comment="" />
+      <created>1606162410267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606162410267</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2613" y="291" width="530" height="497" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606169664436">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2613" y="291" width="530" height="497" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606169664436" />
+    <state x="2663" y="299" width="430" height="481" key="FileChooserDialogImpl" timestamp="1606561029289">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="299" width="430" height="481" key="FileChooserDialogImpl/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606561029289" />
+    <state x="2122" y="230" key="SettingsEditor" timestamp="1606162907890">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2122" y="230" key="SettingsEditor/0.23.1920.1057/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606162907890" />
+  </component>
+</project>
