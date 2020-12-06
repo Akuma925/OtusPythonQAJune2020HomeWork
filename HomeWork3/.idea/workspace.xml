@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfcea132-253b-4e07-b645-6a5681b045c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/locators/AdminPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/locators/AdminPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/locators/Alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/locators/Alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/locators/CatalogPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/locators/CatalogPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/locators/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/locators/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/locators/ProductPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/locators/ProductPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/locators/UserLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/locators/UserLoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/locators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/locators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/page_object/Alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/page_object/Alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/page_object/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/page_object/BasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/page_object/CatalogPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/page_object/CatalogPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/page_object/MainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/page_object/MainPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/page_object/ProductPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/page_object/ProductPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/page_object/UserLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/page_object/UserLoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/page_object/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/page_object/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/tests/debug_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/tests/test_login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork4/tests/test_opencart_admin_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork4/tests/test_opencart_admin_login_page.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kurQV8IcmqvGKky71hZIUS42cW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfcea132-253b-4e07-b645-6a5681b045c2" name="Default Changelist" comment="" />
+      <created>1606561301252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606561301252</updated>
+    </task>
+    <servers />
+  </component>
+</project>
