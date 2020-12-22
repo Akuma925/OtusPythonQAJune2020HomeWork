@@ -12,6 +12,7 @@ class LogsParser:
         self.json_file: pathlib.Path = pathlib.Path(json_file).absolute()
         self.log_files = []
 
+        # проверк ана каталог или файл
         if self.logs_source.is_dir():
             self.log_files = sorted(list([log_file.absolute() for log_file in sorted(self.logs_source.glob("**/*"))]))
         elif self.logs_source.is_file():
@@ -24,7 +25,8 @@ class LogsParser:
             flags=re.IGNORECASE
         )
 
-    def _get_lines_from_logs(self):
+    # Метод для чтения строк
+    def get_lines_from_logs(self):
         file_lines = []
         for log_file in self.log_files:
             with open(file=str(log_file), mode="r") as f:
@@ -32,6 +34,7 @@ class LogsParser:
                     file_lines.append(line)
         return file_lines
 
+    # Метод для сохранения отчета в формате json
     def save_report(self):
         with open(file=str(self.json_file), mode="w") as f:
             data = {
@@ -44,9 +47,11 @@ class LogsParser:
             }
             f.write(json.dumps(data, indent=4))
 
+    # Метод для подсчета общего числа запросов
     def get_total_number_of_requests(self):
-        return sum(1 for line in self._get_lines_from_logs() if line)
+        return sum(1 for line in self.get_lines_from_logs() if line)
 
+    # Метод для подсчета числа запросов по типу
     def get_requests_by_type(self):
         requests_by_type = {
             "GET": 0,
@@ -75,9 +80,10 @@ class LogsParser:
 
         return requests_by_type
 
+    # топ 10 IP адресов
     def get_top_10_ip_addresses(self):
         ip_addresses = []
-        for line in self._get_lines_from_logs():
+        for line in self.get_lines_from_logs():
             match = self.LOG_LINE_PATTERN.search(string=line)
             if match:
                 ip_addresses.append(match.group(1))
@@ -86,9 +92,10 @@ class LogsParser:
             top_10_addresses.append({"ip": ip[0], "count": ip[1]})
         return top_10_addresses
 
+    # топ 10 самых долгих запросов
     def get_top_10_longest_requests(self):
         all_requests = []
-        for line in self._get_lines_from_logs():
+        for line in self.get_lines_from_logs():
             match = self.LOG_LINE_PATTERN.search(string=line)
             if match:
                 all_requests.append(
@@ -102,9 +109,10 @@ class LogsParser:
         top_10_longest = sorted(all_requests, key=lambda d: d["duration"], reverse=True)[0:10]
         return top_10_longest
 
+    # топ 10 запросов, которые завершились клиентской ошибкой
     def get_top_10_client_error_requests(self):
         client_error_requests = []
-        for line in self._get_lines_from_logs():
+        for line in self.get_lines_from_logs():
             match = self.LOG_LINE_PATTERN.search(string=line)
             if match:
                 if 400 <= int(match.group(4)) < 500:
@@ -131,9 +139,10 @@ class LogsParser:
             res_list = res_list[0:10]
         return res_list
 
+    # топ 10 запросов, которые завершились ошибкой со стороны сервера
     def get_top_10_server_error_requests(self):
         server_error_requests = []
-        for line in self._get_lines_from_logs():
+        for line in self.get_lines_from_logs():
             match = self.LOG_LINE_PATTERN.search(string=line)
             if match:
                 if 500 <= int(match.group(4)) < 600:
