@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.6.9 on linux)" generated="20201228 22:54:24.216" rpa="false">
+<suite id="s1" name="Test" source="/home/akuma/Course_QA_Python_Engeneer/repo/OtusPythonQAJune2020HomeWork/HomeWork10BDD/test.robot">
+<test id="s1-t1" name="Buy iMac">
+<kw name="Open Browser To User">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20201228 22:54:24.352" level="INFO">Opening browser 'Chrome' to base url 'https://demo23.opencart.pro/'.</msg>
+<status status="PASS" starttime="20201228 22:54:24.352" endtime="20201228 22:54:26.551"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:24.351" endtime="20201228 22:54:26.551"></status>
+</kw>
+<kw name="Go To Mac">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="menu"]/div[2]/ul/li[1]/a</arg>
+</arguments>
+<msg timestamp="20201228 22:54:26.552" level="INFO">Clicking element '//*[@id="menu"]/div[2]/ul/li[1]/a'.</msg>
+<status status="PASS" starttime="20201228 22:54:26.552" endtime="20201228 22:54:26.762"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="menu"]/div[2]/ul/li[1]/div/div/ul/li[1]/a</arg>
+</arguments>
+<msg timestamp="20201228 22:54:26.763" level="INFO">Clicking element '//*[@id="menu"]/div[2]/ul/li[1]/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" starttime="20201228 22:54:26.763" endtime="20201228 22:54:27.406"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Mac</arg>
+</arguments>
+<msg timestamp="20201228 22:54:27.410" level="INFO">Page title is 'Mac'.</msg>
+<status status="PASS" starttime="20201228 22:54:27.407" endtime="20201228 22:54:27.411"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:26.552" endtime="20201228 22:54:27.411"></status>
+</kw>
+<kw name="Add To Cart">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="content"]/div[5]/div/div/div[1]/a/img</arg>
+</arguments>
+<msg timestamp="20201228 22:54:27.412" level="INFO">Clicking element '//*[@id="content"]/div[5]/div/div/div[1]/a/img'.</msg>
+<status status="PASS" starttime="20201228 22:54:27.412" endtime="20201228 22:54:28.307"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="button-cart"]</arg>
+</arguments>
+<msg timestamp="20201228 22:54:28.308" level="INFO">Clicking element '//*[@id="button-cart"]'.</msg>
+<status status="PASS" starttime="20201228 22:54:28.307" endtime="20201228 22:54:28.416"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:27.411" endtime="20201228 22:54:28.416"></status>
+</kw>
+<kw name="Checkout">
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>iMac</arg>
+</arguments>
+<msg timestamp="20201228 22:54:28.450" level="INFO">Page title is 'iMac'.</msg>
+<status status="PASS" starttime="20201228 22:54:28.417" endtime="20201228 22:54:28.450"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:28.416" endtime="20201228 22:54:28.451"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library" type="teardown">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201228 22:54:28.452" endtime="20201228 22:54:28.515"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:24.351" endtime="20201228 22:54:28.516" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Contact Us">
+<kw name="Open Browser To User">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20201228 22:54:28.520" level="INFO">Opening browser 'Chrome' to base url 'https://demo23.opencart.pro/'.</msg>
+<status status="PASS" starttime="20201228 22:54:28.519" endtime="20201228 22:54:30.875"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:28.518" endtime="20201228 22:54:30.875"></status>
+</kw>
+<kw name="Go To Contact Us">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="menu"]/div[2]/ul/li[12]/a</arg>
+</arguments>
+<msg timestamp="20201228 22:54:30.876" level="INFO">Clicking element '//*[@id="menu"]/div[2]/ul/li[12]/a'.</msg>
+<status status="PASS" starttime="20201228 22:54:30.876" endtime="20201228 22:54:31.378"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Связаться с нами</arg>
+</arguments>
+<msg timestamp="20201228 22:54:31.386" level="INFO">Page title is 'Связаться с нами'.</msg>
+<status status="PASS" starttime="20201228 22:54:31.378" endtime="20201228 22:54:31.387"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:30.876" endtime="20201228 22:54:31.387"></status>
+</kw>
+<kw name="Fill Contact Form">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>input-name</arg>
+<arg>${user}</arg>
+</arguments>
+<msg timestamp="20201228 22:54:31.389" level="INFO">Typing text 'demo' into text field 'input-name'.</msg>
+<status status="PASS" starttime="20201228 22:54:31.388" endtime="20201228 22:54:31.652"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>input-email</arg>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20201228 22:54:31.653" level="INFO">Typing text 'Akuma@gmail.com' into text field 'input-email'.</msg>
+<status status="PASS" starttime="20201228 22:54:31.652" endtime="20201228 22:54:31.896"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>input-enquiry</arg>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20201228 22:54:31.896" level="INFO">Typing text 'such robot much framework' into text field 'input-enquiry'.</msg>
+<status status="PASS" starttime="20201228 22:54:31.896" endtime="20201228 22:54:32.009"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:31.387" endtime="20201228 22:54:32.010"></status>
+</kw>
+<kw name="Submit">
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>Применить</arg>
+</arguments>
+<msg timestamp="20201228 22:54:32.011" level="INFO">Clicking button 'Применить'.</msg>
+<status status="PASS" starttime="20201228 22:54:32.011" endtime="20201228 22:54:32.448"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:32.010" endtime="20201228 22:54:32.449"></status>
+</kw>
+<kw name="Continue From Submit">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="content"]/div/div/a</arg>
+</arguments>
+<msg timestamp="20201228 22:54:32.450" level="INFO">Clicking element '//*[@id="content"]/div/div/a'.</msg>
+<status status="PASS" starttime="20201228 22:54:32.450" endtime="20201228 22:54:32.921"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:32.449" endtime="20201228 22:54:32.921"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library" type="teardown">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201228 22:54:32.922" endtime="20201228 22:54:32.987"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:28.517" endtime="20201228 22:54:32.987" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Login Admin">
+<kw name="Open Browser To Admin Page">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${ADMIN URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20201228 22:54:32.990" level="INFO">Opening browser 'Chrome' to base url 'https://demo23.opencart.pro/admin'.</msg>
+<status status="PASS" starttime="20201228 22:54:32.990" endtime="20201228 22:54:34.949"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Авторизация</arg>
+</arguments>
+<msg timestamp="20201228 22:54:34.957" level="INFO">Page title is 'Авторизация'.</msg>
+<status status="PASS" starttime="20201228 22:54:34.950" endtime="20201228 22:54:34.957"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:32.989" endtime="20201228 22:54:34.957"></status>
+</kw>
+<kw name="Login Admin">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>input-username</arg>
+<arg>${admin}</arg>
+</arguments>
+<msg timestamp="20201228 22:54:34.958" level="INFO">Typing text 'demo' into text field 'input-username'.</msg>
+<status status="PASS" starttime="20201228 22:54:34.958" endtime="20201228 22:54:35.076"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>input-password</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20201228 22:54:35.077" level="INFO">Typing text 'demo' into text field 'input-password'.</msg>
+<status status="PASS" starttime="20201228 22:54:35.077" endtime="20201228 22:54:35.184"></status>
+</kw>
+<kw name="Submit Form" library="Selenium2Library">
+<doc>Submits a form identified by ``locator``.</doc>
+<msg timestamp="20201228 22:54:35.185" level="INFO">Submitting form 'None'.</msg>
+<status status="PASS" starttime="20201228 22:54:35.185" endtime="20201228 22:54:35.649"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Панель состояния</arg>
+</arguments>
+<msg timestamp="20201228 22:54:35.656" level="INFO">Page title is 'Панель состояния'.</msg>
+<status status="PASS" starttime="20201228 22:54:35.650" endtime="20201228 22:54:35.656"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:34.957" endtime="20201228 22:54:35.656"></status>
+</kw>
+<kw name="Zoom Map">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>//*[@id="vmap"]/div[1]</arg>
+</arguments>
+<status status="PASS" starttime="20201228 22:54:35.657" endtime="20201228 22:54:35.881"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="vmap"]/div[1]</arg>
+</arguments>
+<msg timestamp="20201228 22:54:35.882" level="INFO">Clicking element '//*[@id="vmap"]/div[1]'.</msg>
+<status status="PASS" starttime="20201228 22:54:35.882" endtime="20201228 22:54:35.936"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="vmap"]/div[1]</arg>
+</arguments>
+<msg timestamp="20201228 22:54:35.937" level="INFO">Clicking element '//*[@id="vmap"]/div[1]'.</msg>
+<status status="PASS" starttime="20201228 22:54:35.936" endtime="20201228 22:54:35.979"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="vmap"]/div[1]</arg>
+</arguments>
+<msg timestamp="20201228 22:54:35.980" level="INFO">Clicking element '//*[@id="vmap"]/div[1]'.</msg>
+<status status="PASS" starttime="20201228 22:54:35.980" endtime="20201228 22:54:36.016"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:35.656" endtime="20201228 22:54:36.016"></status>
+</kw>
+<kw name="Select Country">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//*[@id="jqvmap1_ne"]</arg>
+</arguments>
+<msg timestamp="20201228 22:54:36.018" level="INFO">Clicking element '//*[@id="jqvmap1_ne"]'.</msg>
+<status status="PASS" starttime="20201228 22:54:36.017" endtime="20201228 22:54:36.091"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:36.017" endtime="20201228 22:54:36.091"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library" type="teardown">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201228 22:54:36.092" endtime="20201228 22:54:36.152"></status>
+</kw>
+<status status="PASS" starttime="20201228 22:54:32.988" endtime="20201228 22:54:36.152" critical="yes"></status>
+</test>
+<doc>Simple example using SeleniumLibrary.</doc>
+<status status="PASS" starttime="20201228 22:54:24.217" endtime="20201228 22:54:36.154"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

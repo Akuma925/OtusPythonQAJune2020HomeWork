@@ -1,34 +1,31 @@
 *** Settings ***
 Documentation     Simple example using SeleniumLibrary.
-Library           SeleniumLibrary
+Library           Selenium2Library
 
 *** Variables ***
-${LOGIN URL}      http://localhost
-${ADMIN URL}      http://localhost/admin
+${LOGIN URL}      https://demo23.opencart.pro/
+${ADMIN URL}      https://demo23.opencart.pro/admin
 ${BROWSER}        Chrome
-${admin}     admin
-${password}     1
-${fanboy}       fanboy
-${email}        fanboy@dea.gov
+${admin}     demo
+${password}     demo
+${user}       demo
+${email}        Akuma@gmail.com
 ${message}      such robot much framework
-${store title}  GRIG22 HAPPY STORE
 
 *** Test Cases ***
 Buy iMac
-    Open Browser To Login Page
+   Open Browser To User
     Go To Mac
     Add To Cart
-    Open Cart
     Checkout
     [Teardown]    Close Browser
 
 Contact Us
-    Open Browser To Login Page
+    Open Browser To User
     Go To Contact Us
     Fill Contact Form
     Submit
     Continue From Submit
-    Title Should Be    ${store title}
     [Teardown]    Close Browser
 
 Login Admin
@@ -36,6 +33,8 @@ Login Admin
     Login Admin
     Zoom Map
     Select Country
+    [Teardown]    Close Browser
+
 
 *** Keywords ***
 Zoom Map
@@ -51,44 +50,40 @@ Login Admin
     Input Text    input-username    ${admin}
     Input Text    input-password    ${password}
     Submit Form
-    Title Should Be    Dashboard
+    Title Should Be    Панель состояния
 
 Open Browser To Admin Page
     Open Browser    ${ADMIN URL}    ${BROWSER}
-    Title Should Be    Administration
+    Title Should Be    Авторизация
+
+Open Browser To User
+     Open Browser    ${LOGIN URL}    ${BROWSER}
 
 Submit
-    Click Button        Submit
+    Click Button        Применить
 
 Continue From Submit
-    Click Element    xpath://*[@id="content"]/div/div/a
+    Click Element    //*[@id="content"]/div/div/a
 
 Go To Contact Us
-    Click Element       xpath:/html/body/footer/div/div/div[2]/ul/li[1]/a
-    Title Should Be     Contact Us
+    Click Element       //*[@id="menu"]/div[2]/ul/li[12]/a
+    Title Should Be     Связаться с нами
 
 Fill Contact Form
-    Input Text    input-name    ${fanboy}
+    Input Text    input-name    ${user}
     Input Text    input-email    ${email}
     Input Text    input-enquiry    ${message}
 
-Open Browser To Login Page
-    Open Browser    ${LOGIN URL}    ${BROWSER}
-    Title Should Be    ${store title}
 
 Go To Mac
     Click Element     //*[@id="menu"]/div[2]/ul/li[1]/a
-    Click Element     //*[@id="menu"]/div[2]/ul/li[1]/div/div/ul/li[2]/a
+    Click Element     //*[@id="menu"]/div[2]/ul/li[1]/div/div/ul/li[1]/a
     Title Should Be     Mac
 
 Add To Cart
-    Click Element    //*[@id="content"]/div[2]/div/div/div[2]/div[2]/button[1]/i
+    Click Element      //*[@id="content"]/div[5]/div/div/div[1]/a/img
+    Click Element       //*[@id="button-cart"]
 
-Open Cart
-    Wait Until Page Contains Element    //*[@id="product-category"]/div[1]/a[2]
-    Click Element     //*[@id="product-category"]/div[1]/a[2]
-    Title Should Be     Shopping Cart
 
 Checkout
-    Click Element   //*[@id="content"]/div[3]/div[2]/a
-    Title Should Be     Checkout
+    Title Should Be    iMac
